@@ -1,0 +1,40 @@
+.chart {
+    flex: 3.3;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    .chart-header {
+        display: flex;
+        .title {
+            flex: 1.7;
+            font-size: 2.5rem;
+            padding-left: 2rem;
+            padding-top: 1.5rem;
+            font-weight: 500;
+        }
+        .week {
+            display: flex;
+            flex: 1;
+            font-size: 2.5rem;
+            padding-top: 1.5rem;
+
+            font-weight: 500;
+            .select {
+                font-size: 1.6rem;
+                margin-right: 1.5rem;
+            }
+            .search-btn {
+                background: transparent;
+                color: rgb(99, 102, 241);
+                text-align: center;
+                border: 1px solid rgb(99, 102, 241);
+                border-radius: 5px;
+                font-size: 15px;
+                font-weight: 700;
+                &:hover {
+                    background-color: rgb(99, 102, 241);
+                    color: whitesmoke;
+                }
+            }
+        }
+    }
+}

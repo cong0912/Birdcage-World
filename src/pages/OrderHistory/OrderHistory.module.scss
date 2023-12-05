@@ -1,0 +1,51 @@
+.personal-page {
+    text-align: center;
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 5rem;
+    font-family: 'Playball';
+    position: absolute;
+    top: 330px;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    user-select: none;
+}
+
+table,
+td,
+tr,
+th {
+    border: 1px solid #e4a53d;
+}
+
+.mycontent {
+    width: 1450px;
+    margin: auto;
+    // height: 50vh;
+    display: flex;
+    margin-top: 10rem;
+    user-select: none;
+    position: relative;
+    margin-bottom: 4rem;
+
+    .table {
+        width: 100%;
+        font-size: 15px;
+        th {
+            border-bottom: 1px solid #dee2e6;
+            background: #e4a53d;
+            color: #fff;
+            padding: 5px;
+            font-size: 14px;
+        }
+        td {
+            text-align: center;
+        }
+        tr {
+            .date {
+                width: 10rem;
+            }
+        }
+    }
+}
